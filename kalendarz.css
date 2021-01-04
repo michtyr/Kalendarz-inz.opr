@@ -1,6 +1,6 @@
 /*******************************Calendar Top Navigation*********************************/
 body{
-    background-color: #fffdf7;
+    background-color: #e5e3de;
 }
 
 
@@ -8,7 +8,7 @@ div#Kalendarz{
   margin:0px auto;
   padding:0px;
   width: 745px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Comic Sans MS, Helvetica, sans-serif;
 }
  
 div#Kalendarz div.box{
@@ -17,7 +17,7 @@ div#Kalendarz div.box{
     left:0px;
     width:100%;
     height:40px;
-    background-color: #b39b4d ;      
+    background-color: #f90303 ;      
 }
  
 div#Kalendarz div.header{
@@ -142,7 +142,7 @@ div.event1{
     width: 240px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: #f7f4f2;
+    background-color: #fff;
     float: left;
 }
 
@@ -168,7 +168,7 @@ div.event1{
     height: 500px;
     text-align: center;
     border: 5px solid #f5dc87;
-    background-color: #f2e4b3;
+    background-color: #D9E0FF;
 }
 
 .back{
@@ -177,7 +177,7 @@ div.event1{
     font-size: 30px;
     border: 1px solid green;
     border-radius: 5px;
-    background-color: #f7cd3e;
+    background-color: #F5FFCF;
 }
 
 .back:hover{
@@ -208,7 +208,7 @@ h4{
 }
 .myButton:hover {
     background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
-    background-color:#68a54b;
+    background-color:#f00;
 }
 .myButton:active {
     position:relative;
