@@ -158,7 +158,7 @@ class Kalendarz {
     private function _createNavi(){
          
         $nextMonth = $this->currentMonth==12?1:intval($this->currentMonth)+1;
-         a
+         
         $nextYear = $this->currentMonth==12?intval($this->currentYear)+1:$this->currentYear;
          
         $preMonth = $this->currentMonth==1?12:intval($this->currentMonth)-1;
