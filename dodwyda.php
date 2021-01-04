@@ -22,7 +22,7 @@
 
 
 
-	<form method="post" action="adding.php">
+	<form method="post" action="dodawanie.php">
 		Podaj godzinę: <input type="time" name="godzina"><br><br>
 		Podaj nazwę wydarzenia: <input type="text" name="tytul"><br><br>
 		Opis wydarzenia: <input type="text" name="opis"><br><br>
