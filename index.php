@@ -18,7 +18,7 @@
 ?>
 
 <br><br>
-<h1>Spis wydarzeń na wybrany miesiąc:</h1>
+<h1>Zaplanowane wydarzenia:</h1>
 
 <?php
 	$servername = "localhost";
