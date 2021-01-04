@@ -158,7 +158,7 @@ class Kalendarz {
     private function _createNavi(){
          
         $nextMonth = $this->currentMonth==12?1:intval($this->currentMonth)+1;
-         
+         a
         $nextYear = $this->currentMonth==12?intval($this->currentYear)+1:$this->currentYear;
          
         $preMonth = $this->currentMonth==1?12:intval($this->currentMonth)-1;
@@ -224,7 +224,7 @@ private function _showDay($cellNumber){
             return '<li id="li-'.$this->currentDate.'" class="'.($cellNumber%7==1?' start ':($cellNumber%7==0?' end ':' ')).($cellContent==null?'mask':'').'">'.$cellContent.'</li>';
         }else
         {
-            return '<a href=addevent.php?day='.$this->currentDay.'&month='.$this->currentMonth.'><li id="li-'.$this->currentDate.'" class="'.($cellNumber%7==1?' start ':($cellNumber%7==0?' end ':' ')).
+            return '<a href=dodwyda.php?day='.$this->currentDay.'&month='.$this->currentMonth.'><li id="li-'.$this->currentDate.'" class="'.($cellNumber%7==1?' start ':($cellNumber%7==0?' end ':' ')).
         ($cellContent==null?'mask':'').'">'.$cellContent.'</li></a>';
         }
             
