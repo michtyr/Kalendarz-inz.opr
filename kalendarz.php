@@ -1,5 +1,5 @@
 <?php
-class Calendar {  
+class Kalendarz {  
      
     /**
      * Constructor
@@ -59,7 +59,7 @@ class Calendar {
          
         $this->daysInMonth=$this->_daysInMonth($month,$year);  
          
-        $content='<div id="calendar">'.
+        $content='<div id="Kalendarz">'.
                         '<div class="box">'.
                         $this->_createNavi().
                         '</div>'.
