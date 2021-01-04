@@ -4,17 +4,17 @@
 
 <html>
 <head>   
-<link href="calendar.css" type="text/css" rel="stylesheet" />
-<title>Kalendarz Kacper & Aleksander</title>
+<link href="Kalendarz.css" type="text/css" rel="stylesheet" />
+<title>Kalendarz</title>
 </head>
 <body>
 
 <?php
-	include 'calendar.php';
-	$calendar = new Calendar();
-	echo $calendar->show();
-	$_SESSION['currY']=$calendar->_getYear();
-	$_SESSION['miesiac']=$calendar->_getMonth();
+	include 'Kalendarz.php';
+	$Kalendarz = new Kalendarz();
+	echo $Kalendarz->show();
+	$_SESSION['currY']=$Kalendarz->_getYear();
+	$_SESSION['miesiac']=$Kalendarz->_getMonth();
 ?>
 
 <br><br>
