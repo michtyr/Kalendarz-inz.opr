@@ -1,0 +1,216 @@
+/*******************************Calendar Top Navigation*********************************/
+body{
+    background-color: #fffdf7;
+}
+
+
+div#calendar{
+  margin:0px auto;
+  padding:0px;
+  width: 745px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+div#calendar div.box{
+    position:relative;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:40px;
+    background-color: #b39b4d ;      
+}
+ 
+div#calendar div.header{
+    line-height:40px;  
+    vertical-align:middle;
+    position:absolute;
+    left:11px;
+    top:0px;
+    width:722px;
+    height:40px;   
+    text-align:center;
+}
+ 
+div#calendar div.header a.prev,div#calendar div.header a.next{ 
+    position:absolute;
+    top:0px;   
+    height: 17px;
+    display:block;
+    cursor:pointer;
+    text-decoration:none;
+    color:#FFF;
+}
+ 
+div#calendar div.header span.title{
+    color:#FFF;
+    font-size:27px;
+}
+ 
+ 
+div#calendar div.header a.prev{
+    left:0px;
+}
+ 
+div#calendar div.header a.next{
+    right:0px;
+}
+ 
+ 
+ 
+ 
+/*******************************Calendar Content Cells*********************************/
+div#calendar div.box-content{
+    border: 2px solid #787878 ;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+ 
+ 
+ 
+div#calendar ul.label{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+ 
+div#calendar ul.label li{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;  
+    float: left;
+    list-style-type:none;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    vertical-align:middle;
+    text-align:center;
+    color:#000;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+}
+ 
+ 
+div#calendar ul.dates{
+    float:left;
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+ 
+/** overall width = width+padding-right**/
+div#calendar ul.dates li{
+    margin:0px;
+    padding:0px;
+    margin-right:5px;
+    margin-top: 5px;
+    line-height:25px;
+    vertical-align:middle;
+    float:left;
+    list-style-type:none;
+    width:100px;
+    height:100px;
+    font-size:25px;
+    background-color: #f5f2d7;
+    color:#000;
+    text-align: left;
+}
+ 
+:focus{
+    outline:none;
+}
+ 
+div.clear{
+    clear:both;
+} 
+
+div.event{
+    font-weight: bold;
+    line-height: 12px;
+    color: #f26b30;
+    font-size: 13px;
+}
+
+div.event1{
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+    height: 100px;
+    width: 240px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f7f4f2;
+    float: left;
+}
+
+.button{
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: #DDD;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #ededed;
+}
+
+#addEvent{
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    border: 5px solid #f5dc87;
+    background-color: #f2e4b3;
+}
+
+.back{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: 1px solid green;
+    border-radius: 5px;
+    background-color: #f7cd3e;
+}
+
+.back:hover{
+    background-color: #f2d266;
+}
+
+h1{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.myButton {
+    box-shadow:inset 0px 1px 0px 0px #9acc85;
+    background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+    background-color:#74ad5a;
+    border:2px solid #3b6e22;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:19px;
+    font-weight:bold;
+    padding:7px 11px;
+    text-decoration:none;
+}
+.myButton:hover {
+    background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+    background-color:#68a54b;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
