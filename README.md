@@ -1,2 +1,2 @@
 # Kalendarz-inz.opr
-edit
+Michał Tyrański , Kacper Kozłowski
