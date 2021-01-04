@@ -16,18 +16,18 @@
 		$month=$_GET['month'];
 		$_SESSION['dzien']=$day;
 		$_SESSION['miesiac']=$month;
-		echo '<h2><b>Dodaj wydarzenie dla daty '.$day.'.'.$month.'.'.$rok1.':</b></h2><br><br>';
+		echo '<h2><b>Zaplanuj wydarzenie na: '.$day.'.'.$month.'.'.$rok1.':</b></h2><br><br>';
 	?>
 
 
 
 
 	<form method="post" action="dodawanie.php">
-		Podaj godzinę: <input type="time" name="godzina"><br><br>
-		Podaj nazwę wydarzenia: <input type="text" name="tytul"><br><br>
+		Godzina: <input type="time" name="godzina"><br><br>
+		Nazwa wydarzenia: <input type="text" name="tytul"><br><br>
 		Opis wydarzenia: <input type="text" name="opis"><br><br>
 		<input type="checkbox" name="rekurencja" value="1" > Cotygodniowe<br><br>
-		<input  class="back" type="submit" name="submit" value="Dodaj wydarzenie"><br><br>
+		<input  class="back" type="submit" name="submit" value="ZAPLANUJ"><br><br>
 
 	</form>
 
