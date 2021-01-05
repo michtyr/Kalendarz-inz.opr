@@ -167,7 +167,7 @@ div.event1{
     width: 1000px;
     height: 500px;
     text-align: center;
-    border: 5px solid #f5dc87;
+    border: 5px solid #f00;
     background-color: #D9E0FF;
 }
 
@@ -175,7 +175,7 @@ div.event1{
     text-decoration: none;
     color: black;
     font-size: 30px;
-    border: 1px solid green;
+    border: 1px solid red;
     border-radius: 5px;
     background-color: #F5FFCF;
 }
@@ -200,7 +200,7 @@ h4{
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-family:Arial;
+    font-family:Calibri;
     font-size:19px;
     font-weight:bold;
     padding:7px 11px;
