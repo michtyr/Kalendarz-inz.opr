@@ -16,7 +16,7 @@
 		$month=$_GET['month'];
 		$_SESSION['dzien']=$day;
 		$_SESSION['miesiac']=$month;
-		echo '<h2><b>Zaplanuj wydarzenie na: '.$day.'.'.$month.'.'.$rok1.':</b></h2><br><br>';
+		echo '<h2><b>Zaplanuj czas na: '.$day.'.'.$month.'.'.$rok1.':</b></h2><br><br>';
 	?>
 
 
